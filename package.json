@@ -1,0 +1,29 @@
+{
+  "name": "my-demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@inrupt/solid-client": "^2.0.0",
+    "@inrupt/solid-client-authn-browser": "^2.0.0",
+    "@inrupt/vocab-common-rdf": "^1.0.5",
+    "@inrupt/vocab-solid": "^1.0.4",
+    "@nymproject/mix-fetch": "^1.2.4-rc.1",
+    "@nymproject/mix-fetch-full-fat": "^1.2.4-rc.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.1"
+  }
+}
